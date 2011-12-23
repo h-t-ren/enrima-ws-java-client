@@ -1,0 +1,93 @@
+#header_toolbar {
+  color: white;
+  font-weight:bold;
+   /* background:#fff url(../images/banner.jpg) 0 100% repeat-x;*/
+   background-color: #003366;
+  border: 1px solid;
+  border-color: blue;
+  height:3em;
+}
+
+#app_leading
+{
+	border: 1px solid;
+    border-color: blue;
+    width:9em;
+    margin:0;
+    padding:0;
+    background-color:#f0f0f0;
+}
+#app_logo_area {
+  position: absolute;
+  left:0em;
+  width:3em;
+}
+
+#app_area {
+   position: absolute;
+  top: 0.4em;
+  left:3.4em;
+  width:10em;
+  font-size:1.6em;
+  vertical-align: middle;
+
+}
+
+#app_main_area {
+  position: absolute;
+ /* top: 0.2em;*/
+  left:14em;
+  right:16em;
+  font-size:2em;
+  vertical-align: middle;
+  text-align:center;
+
+}
+
+
+#other_area {
+  position: absolute;	
+  right:0em;
+  top:0.4em;
+  width:16em;	
+  text-align:right;
+  font-size:1.2em;
+  margin-right:1em;
+  vertical-align: right;
+ 
+}
+
+#app_body {
+ /* border: 1px solid;
+  border-color: blue;
+  */
+  text-align: left;
+}
+#footer_copyrights
+{
+  color: white;
+  font-size: 11px; 
+  text-align: center;
+  background-color: #003366;
+  border: 1px solid;
+
+}
+
+#footer_msg
+{
+  color: white;
+  font-size: 11px; 
+  background-color: #003366;
+}
+
+div#navmenu {
+margin-bottom: 0px;
+margin-top: 0px;
+width: 100%;
+float:left;
+}
+div#nav_top {
+margin-bottom: 0px;
+margin-top: 0px;
+}
+
