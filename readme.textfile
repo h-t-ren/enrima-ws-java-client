@@ -1,0 +1,20 @@
+h2. Develepment environments:
+
+* JDK 1.6 or above
+* Maven 3.0.0 or above
+* Git (optional)
+
+h2. Download the example:
+
+* git clone git//github.com/h-t-ren/enrima-ws-java-client.git
+* or https://github.com/h-t-ren/enrima-ws-java-client and click "zip" button 
+
+h2. Compile and install:
+ 
+  cd enrima-ws-java-client
+  mvn clean install
+
+h2. Run:
+  cd ui
+  mvn tomcat:run   (to stop tomcat: ctrl+c) 
+
