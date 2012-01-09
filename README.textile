@@ -19,6 +19,10 @@ h2. Run:
   cd ui
   mvn tomcat:run   (to stop tomcat: ctrl+c) 
 
+h2. web client:
+
+ http://localhost:8080/enrima-web/
+
 h2. Files:
 
  * Three modules (pom.xml):
@@ -106,7 +110,15 @@ public class ModelClient {
 
 </pre>
 
+* ui (ui/pom.xml), tomcat plugin:
 
-
-
-
+<pre>
+<plugin>
+   <groupId>org.apache.tomcat.maven</groupId>
+   <artifactId>tomcat7-maven-plugin</artifactId>
+   <version>2.0-SNAPSHOT</version>
+       <configuration>
+	 <path>/enrima-web</path>
+      </configuration>
+</plugin>
+</pre>
