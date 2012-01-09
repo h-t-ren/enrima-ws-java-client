@@ -19,3 +19,15 @@ h2. Run:
   cd ui
   mvn tomcat:run   (to stop tomcat: ctrl+c) 
 
+h2. Maven configuration
+
+ * Three modules (pom.xml)
+  <pre>
+     <modules>
+        <module>oxm</module>
+        <module>core</module>
+        <module>ui</module>
+     </modules>
+  </pre>
+
+
