@@ -10,18 +10,18 @@ h2. Download the example:
 * or https://github.com/h-t-ren/enrima-ws-java-client and click "zip" button 
 
 h2. Compile and install:
- 
-  cd enrima-ws-java-client
-  mvn clean install
+
+* cd enrima-ws-java-client
+* mvn clean install
 
 h2. Run:
 
-  cd ui
-  mvn tomcat:run   (to stop tomcat: ctrl+c) 
+* cd ui
+* mvn tomcat:run   (to stop tomcat: ctrl+c) 
 
 h2. web client:
 
- http://localhost:8080/enrima-web/
+* http://localhost:8080/enrima-web/
 
 h2. Files:
 
