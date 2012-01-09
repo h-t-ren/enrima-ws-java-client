@@ -22,11 +22,12 @@ h2. Run:
 h2. Maven configuration
 
  * Three modules (pom.xml)
+
   <pre>
      <modules>
-        <module>oxm</module>
-        <module>core</module>
-        <module>ui</module>
+        <module>oxm</module>  <!--object xml mapping module-->
+        <module>core</module> <!--business logic-->
+        <module>ui</module>   <!--web module-->
      </modules>
   </pre>
 
