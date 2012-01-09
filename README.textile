@@ -54,5 +54,22 @@ h2. Files:
 </pre>
 
 
+<pre>
+<dependencies>
+    <dependency>
+        <groupId>org.springframework.data</groupId>
+        <artifactId>spring-data-neo4j</artifactId>
+        <version>1.0.0.RELEASE</version>
+    </dependency>
+</dependencies>
+<repositories>
+    <repository>
+        <id>spring-maven-snapshot</id>
+        <snapshots><enabled>true</enabled></snapshots>
+        <name>Springframework Maven MILESTONE Repository</name>
+        <url>http://maven.springframework.org/milestone</url>
+    </repository>
+</repositories>
+</pre>
 
 
