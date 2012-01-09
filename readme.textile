@@ -1,5 +1,3 @@
-h1. Java client for SMS Webservice:
-
 h2. Develepment environments:
 
 * JDK 1.6 or above
@@ -17,6 +15,7 @@ h2. Compile and install:
   mvn clean install
 
 h2. Run:
+
   cd ui
   mvn tomcat:run   (to stop tomcat: ctrl+c) 
 
