@@ -6,7 +6,7 @@ h2. Develepment environments:
 
 h2. Download the example:
 
-* git clone git//github.com/h-t-ren/enrima-ws-java-client.git
+* git clone git://github.com/h-t-ren/enrima-ws-java-client.git
 * or https://github.com/h-t-ren/enrima-ws-java-client and click "zip" button 
 
 h2. Compile and install:
