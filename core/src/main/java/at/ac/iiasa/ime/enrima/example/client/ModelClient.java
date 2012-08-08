@@ -1,5 +1,4 @@
 package at.ac.iiasa.ime.enrima.example.client;
-
 import java.util.List;
 import at.ac.iiasa.ime.enrima.example.client.jaxws.GetModelDescriptionRequest;
 import at.ac.iiasa.ime.enrima.example.client.jaxws.GetModelDescriptionResponse;
@@ -14,16 +13,18 @@ public class ModelClient {
 	ObjectFactory objectFactory = new ObjectFactory();
 
 	public static void main(String[] args) {
-
 		ModelClient client = new ModelClient();
-		client.getAll();
+		client.service.setHandlerResolver(new EnrimaHandlerSolver("hongtao","hongtao"));
+		//client.getAll();
+		
+		Model m = client.getById(58);
 	}
 
 	public List<Model> getAll() {
-		GetModelListResponse response = service.getEnrimaSoap11().getModelList(null);
-		List<Model> modelList = response.getModel();
-		//System.out.println(modelList.size());
-		return modelList;
+
+	   GetModelListResponse response = service.getEnrimaSoap11().getModelList(null);
+	   List<Model> modelList = response.getModel();
+	   return modelList;
 	}
 
 	public Model getById(int idModel) {
